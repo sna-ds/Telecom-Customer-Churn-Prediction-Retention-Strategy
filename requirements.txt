@@ -1,0 +1,14 @@
+streamlit==1.33.0
+streamlit-navigation-bar==3.3.0
+pandas
+numpy
+matplotlib
+seaborn
+altair
+scikit-learn
+lightgbm
+xgboost
+joblib
+plotly
+shap
+pillow
