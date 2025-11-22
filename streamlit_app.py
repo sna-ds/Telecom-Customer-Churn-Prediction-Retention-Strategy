@@ -19,7 +19,7 @@ logo_path = os.path.join(parent_dir, "images", "icons8-home.svg")
 
 styles = {
     "nav": {
-        "background-color": "royalblue",
+        "background-color": "orange",
         "justify-content": "left",
     },
     "img": {
@@ -31,7 +31,7 @@ styles = {
     },
     "active": {
         "background-color": "white",
-        "color": "royalblue",
+        "color": "orange",
         "font-weight": "bold",
         "padding": "14px",
         "border-radius": "6px",
@@ -54,9 +54,7 @@ page = st_navbar(
 # Routing
 if page == "Home":
     pg.home.show_home()
-elif page == "Analysis":
-    pg.analysis.show_analysis()
-elif page == "Prediction":
+elif page == "Churn Prediction":
     pg.prediction.show_prediction()
 elif page == "Contact":
     pg.contact.show_contact()
