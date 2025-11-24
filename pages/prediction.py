@@ -103,9 +103,9 @@ def show_prediction():
         st.metric("Churn Probability", f"{prob_churn:.2%}")
 
         # ---- RETENTION STRATEGY ----
-        cltv = monthly_charges * 12
+        cltv = monthly_charges * tenure
         expected_loss = cltv * prob_churn
-        max_offer = expected_loss * 0.7
+        max_offer = expected_loss * 0.7 
 
         if prob_churn < 0.30:
             strategy = "No offer needed — maintain standard communication."
