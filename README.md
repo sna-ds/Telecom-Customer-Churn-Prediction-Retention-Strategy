@@ -22,7 +22,7 @@ The final system is deployed as an interactive Streamlit application where users
         weighted avg       0.94      0.94      0.94      1409
         AUC-ROC: 0.9890936992143426
 ### Confusion Matrix:  
-   ![Confusion Matrix](Images/Confusion_Matrix.png)
+   ![Confusion Matrix](images/Confusion_Matrix.png)
 
 *Keytakeaways:* LGBM model is highly effective for churn prediction.
 - Achieved ≥ 90% recall for churn, ensuring that almost all at-risk customers are successfully identified.
